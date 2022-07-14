@@ -11341,3 +11341,12 @@ body{
   display: flex;
   justify-content: flex-end;
 }
+
+/* Carusel */
+
+.carousel-inner{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
