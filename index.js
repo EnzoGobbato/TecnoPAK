@@ -48,11 +48,18 @@ let productosCarrito = [];
 
 cargarEventListener();
 function cargarEventListener () {
-    //cuando agregas una funda presionando en "agregar al carrito"
+    // Cuando agregas una funda presionando en "agregar al carrito"
     fundas.addEventListener('click', agregarFundas);
 
     // Elimina articulos del carrito
     carrito.addEventListener ('click', eliminarArticulo);
+
+    // Vaciar carrito
+    vaciarCarritoBtn.addEventListener('click', () => {
+        productosCarrito = [ ]; // Reseteamos el arreglo
+        limpiarHTML (); // Eliminamos todo el html generado en el carrito
+    })
+
 }
 
     // Funciones
@@ -144,7 +151,6 @@ contenedorCarrito.appendChild(row);
 
     });
 }
-
 
 // Elimina los productos del tbody
 
