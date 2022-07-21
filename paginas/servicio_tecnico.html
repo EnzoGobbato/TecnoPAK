@@ -10,60 +10,78 @@
 </head>
 <body>
 
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="../imagenes/logoPrincipal.png" class="img-fluid" alt="Logo principal">
-          </div>
+  <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="../imagenes/logoPrincipal.png" class="img-fluid" alt="Logo principal">
         </div>
-    </div>
+      </div>
+  </div>
 
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="../index.html">Tecno PAK</a>
-      </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Accesorios</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="../paginas/fundas.html">Fundas</a></li>
-            <li><a class="dropdown-item" href="../paginas/protectores_glasses.html">Protectores / glasses</a></li>
-            <li><a class="dropdown-item" href="../paginas/hidrogel.html">Hidrogel</a></li>
-            <li><a class="dropdown-item" href="../paginas/cargadores_cables.html">Cargadores / Cables</a></li>
-            <li><a class="dropdown-item" href="../paginas/audio.html">Audio</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="../paginas/otros_accesorios.html">Otros Accesorios</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../paginas/servicio_tecnico.html">Servicio Técnico</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../paginas/contacto.html"> Contacto</a>
-        </li>
-        <ul>
-          <li class="submenu">
-            <img src="../imagenes/anadir-al-carrito.png" alt="carrito de compras">
-            <div id="carrito">
-              <table id="lista carrito" class="u-full-width">
-                <thead>
-                  <tr>
-                    <th>Imagen</th>
-                    <th>Nombre</th>
-                    <th>Precio</th>
-                    <th>Cantidad</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-              </table>
-              <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar carrito</a>
-            </div>
-          </li>
-        </ul>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="../index.html">Tecno PAK</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Fundas</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="../paginas/Iphone.html">Iphone</a></li>
+      <li><a class="dropdown-item" href="../paginas/samsung.html">Samsung</a></li>
+      <li><a class="dropdown-item" href="../paginas/motorola.html">Motorola</a></li>
+      <li><a class="dropdown-item" href="../paginas/LG.html">LG</a></li>
+      <li><a class="dropdown-item" href="../paginas/xiaomi.html">Xiaomi</a></li>
+      <li><a class="dropdown-item" href="../paginas/huawei.html">Huawei</a></li>
+  </ul>
+</li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Accesorios</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="../paginas/protectores_glasses.html">Protectores / glasses</a></li>
+        <li><a class="dropdown-item" href="../paginas/hidrogel.html">Hidrogel</a></li>
+        <li><a class="dropdown-item" href="../paginas/cargadores_cables.html">Cargadores / Cables</a></li>
+        <li><a class="dropdown-item" href="../paginas/audio.html">Audio</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="../paginas/otros_accesorios.html">Otros Accesorios</a></li>
     </ul>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="../paginas/servicio_tecnico.html">Servicio Técnico</a>
+</li>
+<li class="nav-item">
+        <a class="nav-link" href="../paginas/contacto.html"> Contacto</a>
+</li>
+<ul class="carrito">
+  <li class="submenu">
+    <img src="../imagenes/anadir-al-carrito.png" alt="carrito de compras" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+    <div id="carrito" class="dropdown-menu">
+
+      <table id="lista-carrito" class="u-full-width">
+        <thead>
+          <tr>
+            <th>Imagen</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar carrito</a>
+    </div>
+  </li>
+</ul>
+</ul>
+</header>
+
+<main>
+
+</main>
+<footer>
+
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
 </body>
 </html>
