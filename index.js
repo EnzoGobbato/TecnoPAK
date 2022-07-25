@@ -59,7 +59,6 @@ function cargarEventListener () {
         productosCarrito = [ ]; // Reseteamos el arreglo
         limpiarHTML (); // Eliminamos todo el html generado en el carrito
     })
-
 }
 
     // Funciones
