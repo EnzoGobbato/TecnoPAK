@@ -1,0 +1,38 @@
+[
+    {
+      "precio": 1500,
+      "id": 1,
+      "title": "silicone case fuxia",
+      "thumbnailUrl": "./imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1300,
+      "id": 2,
+      "title": "silicone case verde",
+      "thumbnailUrl": "./imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1000,
+      "id": 3,
+      "title": "silicone case roja",
+      "thumbnailUrl": "./imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1750,
+      "id": 4,
+      "title": "silicone case azul",
+      "thumbnailUrl": "./imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1600,
+      "id": 5,
+      "title": "silicone case amarilla",
+      "thumbnailUrl": "./imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 6,
+      "title": "silicone case marron",
+      "thumbnailUrl": "./imagenes/Prueba tamaño funda.jpg"
+    }
+  ]
