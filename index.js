@@ -188,6 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
         carrito = JSON.parse(localStorage.getItem('carrito'))
         pintarCarrito()
     }
+
 })
 cards.addEventListener('click', e => {
     addcarrito(e)
@@ -195,6 +196,7 @@ cards.addEventListener('click', e => {
 items.addEventListener('click',(e) =>{
     btnAccion(e)
 })
+
 
 const fetchData = async () => {
     try{
@@ -237,7 +239,13 @@ const setCarrito = objeto => {
     if (carrito.hasOwnProperty(producto.id)) {
         producto.cantidad = carrito[producto.id].cantidad + 1
     }
-
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Producto agregado al carrito.',
+        showConfirmButton: false,
+        timer: 750
+      })
     carrito[producto.id] = {...producto}
     pintarCarrito()
 }
@@ -285,7 +293,7 @@ const pintarFooter = () => {
     const btnVaciar = document.getElementById('vaciar-carrito')
     btnVaciar.addEventListener('click', () => {
         carrito = {}
-        pintarCarrito ()
+        pintarCarrito ()   
     })
 }
 
