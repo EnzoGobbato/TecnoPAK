@@ -11282,9 +11282,9 @@ textarea.form-control-lg {
   }
 }/*# sourceMappingURL=style.css.map */
 
-/* 
 
-/*INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX
+
+/*INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX*/
 
 body{
     background-color: #f0f0f0;
@@ -11292,7 +11292,7 @@ body{
 
 .carousel-item{
     margin: 0.5rem;
-    height: 450px;
+    height: 667px;
 }
 
 .col1{
@@ -11302,21 +11302,9 @@ body{
 
 /*paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas*/
 
-/* .card-body{
-background-color: #0c3c64;
-width: 8rem;
-} 
-
-.productos{
-display: flex;
-flex-direction: row;
-width: auto;
-height: auto;
-padding: 0%;
-margin: 0%;
+.row{
+  margin: 0.5rem;
 }
-
-
 .cuerpoPaginas{
   background-color: var(--bs-gray-300);
   
@@ -11329,27 +11317,38 @@ margin: 0%;
   color: var(--bs-body-bg);
 }
 
+.masMenos{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly ;
+}
+
+
+.modelosFundas{
+  background-color: rgba(0, 0, 0, 0.03);
+}
 .subtitulosPaginas{
   padding: 0%;
 
 }
 
-.modelosFundas{
-  display:flex;
-  justify-content: center;
-  font-size:x-large;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
-.botonPrecio{
+.card-body p{
   display: flex;
   flex-direction: row;
+  justify-content: baseline;
+}
+.card-body{
+  font-weight: 700;
+  font-size: larger;
+  padding-top: 0.5rem;
+  color: #000;
 }
 
-.botonPrecio h3{
-  padding-left: 1.3rem;
-  font-weight: 700;
-  color: green;
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .dropdown-menu{
@@ -11419,6 +11418,4 @@ margin: 0%;
 .btn{
   display: flex;
   justify-content: center;
-}
-
- */
+}*/

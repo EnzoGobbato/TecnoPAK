@@ -56,386 +56,89 @@
 
         <div id="carrito" class="dropdown-menu">
 
-          <table id="lista-carrito" class="u-full-width">
-            <thead>
-              <tr>
-                <th>Imagen</th>
-                <th>Nombre</th>
-                <th>Precio</th>
-                <th>Cantidad</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-          <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar carrito</a>
+          <div class="container">
+            <h1>Carrito</h1>
+            <hr>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Item</th>
+                  <th scope="col">Cantidad</th>
+                  <th scope="col">Acción</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody id="items"></tbody>
+              <tfoot>
+                <tr id="footer">
+                  <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                </tr>
+              </tfoot>
+            </table>
+          
+        </div>
+      
+      <template id="template-carrito">
+        <tr>
+          <th scope="row">id</th>
+          <td>Café</td>
+          <td>1</td>
+          <td class="masMenos">
+              <button class="btn btn-info btn-sm">
+                  +
+              </button>
+              <button class="btn btn-danger btn-sm">
+                  -
+              </button>
+          </td>
+          <td>$ <span>500</span></td>
+        </tr>
+      </template>
+      
+      <template id="template-footer">
+        <th scope="row" colspan="2">Total productos</th>
+        <td>10</td>
+        <td>
+            <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                vaciar todo
+            </button>
+        </td>
+        <td class="font-weight-bold">$ <span>5000</span></td>
+    </template>
+
         </div>
       </li>
     </ul>
     </ul>
   </header>
 
-  <main class="cuerpoPaginas">
+<main class="cuerpoPaginas">
 
 <div class="tituloPaginas">
-    <h3>Fundas Iphone</h3>
+    <h3>Fundas Motorola</h3>
 </div>
     <br>
 <ul class="subtitulosPaginas">
 
-      <h2>Fundas Moto C</h2>
-
-      <div id="lista-fundas">
-      <div id="carouselExampleControls1" class="carousel carousel-dark slide d-none d-sm-block" data-bs-ride="carousel" >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="cards-wrapper">
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone case original</h5>
-                  <p class="card-text">Color: violeta</p>
-                  <div class="botonPrecio">
-                  <a href="#" class="btn btn-primary input agregar-carrito" data-id="2001">Agregar al carrito</a>
-                  <h3>$1500</h3>
-                </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone case original</h5>
-                  <p class="card-text">Color: Rojo</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2002">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone Case Original</h5>
-                  <p class="card-text">Color: naranja</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2003">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                </div>
-              </div>
-              </div>
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone Case Original</h5>
-                  <p class="card-text">Color: Azul Francia  //  Modelo: Ip 6/7/8</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2004">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                </div>
-              </div>
-            </div>
-          </div>
+      <h2 class="modelosFundas">Fundas Motorola modelos g6 / g7 / g8</h2>
+      <hr>
+<div>
+  <div class="row" id="cards"></div>
+  <template id="template-card">
+    <div class="productos col-12 mb-2 col-md-2">
+      <div class="card">
+        <img src="" alt="" class="card-img-top">
+        <div class="card-body">
+          <h5>Titulo</h5>
+          <p>precio</p>
+          <button class="btn btn-dark">Comprar</button>
         </div>
-
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg" alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone Case Original</h5>
-                  <p class="card-text">Color: naranja  //  Modelo: Ip 6/7/8</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2005">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone Case Original</h5>
-                  <p class="card-text">Color: naranja fuego</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2006">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone Case Original</h5>
-                  <p class="card-text">Color: ocre</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2007">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone Case Original.</h5>
-                  <p class="card-text">Color: rosa</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2008">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone Case Original</h5>
-                  <p class="card-text">Color: verde marino</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2009">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone Case Original</h5>
-                  <p class="card-text">Color: bordo</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2010">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone Case Original</h5>
-                  <p class="card-text">Color: magenta</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2011">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Silicone Case Original</h5>
-                  <p class="card-text">Color: verde</p>
-                  <div class="botonPrecio">
-                    <a href="#" class="btn btn-primary input agregar-carrito" data-id="2012">Agregar al carrito</a>
-                    <h3>$1500</h3>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-      <br>
-      <br>
-
-      <div id="carouselExampleControls2" class="carousel carousel-dark slide d-none d-sm-block" data-bs-ride="carousel" >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="cards-wrapper">
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 1</h5>
-                  <p class="card-text">Some quick exampke up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 2</h5>
-                  <p class="card-text">Some quick exammake up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 3</h5>
-                  <p class="card-text">Some quick example texe bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 4</h5>
-                  <p class="card-text">Some quick example text to  bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg" alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 5</h5>
-                  <p class="card-text">Some quick examulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 6</h5>
-                  <p class="card-text">Some quick ek of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 7</h5>
-                  <p class="card-text">Some quick example  make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 8</h5>
-                  <p class="card-text">Some quick example text tke up the f the card's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 9</h5>
-                  <p class="card-text">Some quick example text to build 's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 10</h5>
-                  <p class="card-text">Funda Original de silicona color violeta</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 11</h5>
-                  <p class="card-text">Some quick exulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-              <div class="card">
-                <div class="image-wrapper">
-                  <img src="../imagenes/Prueba tamaño funda.jpg"  alt="...">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card 12</h5>
-                  <p class="card-text">Some quick eulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
-</main>
+  </template>
+</div>
+</ul>
 
   <footer>
 
