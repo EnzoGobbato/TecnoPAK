@@ -11282,9 +11282,9 @@ textarea.form-control-lg {
   }
 }/*# sourceMappingURL=style.css.map */
 
+/* 
 
-
-/*INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX*/
+/*INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX
 
 body{
     background-color: #f0f0f0;
@@ -11301,6 +11301,21 @@ body{
 
 
 /*paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas*/
+
+/* .card-body{
+background-color: #0c3c64;
+width: 8rem;
+} 
+
+.productos{
+display: flex;
+flex-direction: row;
+width: auto;
+height: auto;
+padding: 0%;
+margin: 0%;
+}
+
 
 .cuerpoPaginas{
   background-color: var(--bs-gray-300);
@@ -11354,7 +11369,7 @@ body{
   justify-content: flex-end;
 }
 
-/*Carousel de las paginas de fundas*/
+/*Carousel de las paginas de fundas
 
 .cards-wrapper{
   display: flex;
@@ -11405,3 +11420,5 @@ body{
   display: flex;
   justify-content: center;
 }
+
+ */
