@@ -1,0 +1,74 @@
+[
+    {
+      "precio": 15000,
+      "id": 4001,
+      "title": "silicone case fuxia",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1300,
+      "id": 4002,
+      "title": "silicone case verde",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1000,
+      "id": 4003,
+      "title": "silicone case roja",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1750,
+      "id": 4004,
+      "title": "silicone case azul",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1600,
+      "id": 4005,
+      "title": "silicone case amarilla",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 4006,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 4007,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 4008,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 4009,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 4010,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 4011,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 4012,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/auris.jpg"
+    }
+  ]
