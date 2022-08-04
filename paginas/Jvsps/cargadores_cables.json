@@ -1,0 +1,74 @@
+[
+    {
+      "precio": 15000,
+      "id": 3001,
+      "title": "silicone case fuxia",
+      "thumbnailUrl": "../../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1300,
+      "id": 3002,
+      "title": "silicone case verde",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1000,
+      "id": 3003,
+      "title": "silicone case roja",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1750,
+      "id": 3004,
+      "title": "silicone case azul",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1600,
+      "id": 3005,
+      "title": "silicone case amarilla",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1550,
+      "id": 3006,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1550,
+      "id": 3007,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1550,
+      "id": 3008,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1550,
+      "id": 3009,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1550,
+      "id": 3010,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1550,
+      "id": 3011,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    },
+    {
+      "precio": 1550,
+      "id": 3012,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/cargador1.png"
+    }
+  ]

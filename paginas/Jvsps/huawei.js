@@ -121,7 +121,8 @@ const pintarFooter = () => {
     const btnVaciar = document.getElementById('vaciar-carrito')
     btnVaciar.addEventListener('click', () => {
         carrito = {}
-        pintarCarrito ()   
+        pintarCarrito ()
+        Swal.fire('Vaciaste tu carrito correctamente.')   
     })
 }
 

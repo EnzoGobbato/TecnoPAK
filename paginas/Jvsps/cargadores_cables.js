@@ -28,7 +28,7 @@ items.addEventListener('click',(e) =>{
 
 const fetchData = async () => {
     try{
-        const res = await fetch ('./jvsps/motorola.json')
+        const res = await fetch ('./jvsps/cargadores_cables.json')
         const data = await res.json()
         // console.log(data)
         pintarCards(data)
@@ -121,8 +121,8 @@ const pintarFooter = () => {
     const btnVaciar = document.getElementById('vaciar-carrito')
     btnVaciar.addEventListener('click', () => {
         carrito = {}
-        pintarCarrito ()  
-        Swal.fire('Vaciaste tu carrito correctamente.') 
+        pintarCarrito ()   
+        Swal.fire('Vaciaste tu carrito correctamente.')
     })
 }
 

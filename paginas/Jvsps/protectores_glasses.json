@@ -1,0 +1,74 @@
+[
+    {
+      "precio": 15000,
+      "id": 1001,
+      "title": "silicone case fuxia",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1300,
+      "id": 1002,
+      "title": "silicone case verde",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1000,
+      "id": 1003,
+      "title": "silicone case roja",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1750,
+      "id": 1004,
+      "title": "silicone case azul",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1600,
+      "id": 1005,
+      "title": "silicone case amarilla",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1550,
+      "id": 1006,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1550,
+      "id": 1007,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1550,
+      "id": 1008,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1550,
+      "id": 1009,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1550,
+      "id": 1010,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1550,
+      "id": 1011,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    },
+    {
+      "precio": 1550,
+      "id": 1012,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/glass.jpeg"
+    }
+  ]
