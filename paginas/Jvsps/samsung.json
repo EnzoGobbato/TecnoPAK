@@ -1,0 +1,74 @@
+[
+    {
+      "precio": 15500,
+      "id": 101,
+      "title": "samsung 01",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1350,
+      "id": 102,
+      "title": "silicone case verde",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 10005,
+      "id": 103,
+      "title": "silicone case roja",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 12250,
+      "id": 104,
+      "title": "silicone case azul",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 160320,
+      "id": 105,
+      "title": "silicone case amarilla",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 15123150,
+      "id": 106,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 107,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 108,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 109,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 110,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 111,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 112,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    }
+  ]

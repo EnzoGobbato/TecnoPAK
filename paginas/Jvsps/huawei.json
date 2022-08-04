@@ -1,0 +1,74 @@
+[
+    {
+      "precio": 15000,
+      "id": 501,
+      "title": "silicone case fuxia",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1300,
+      "id": 502,
+      "title": "silicone case verde",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1000,
+      "id": 503,
+      "title": "silicone case roja",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1750,
+      "id": 504,
+      "title": "silicone case azul",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1600,
+      "id": 505,
+      "title": "silicone case amarilla",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 506,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 507,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 508,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 509,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 510,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 511,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "precio": 1550,
+      "id": 512,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    }
+  ]
