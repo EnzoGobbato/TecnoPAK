@@ -1,73 +1,169 @@
 [
     {
-      "precio": 15000,
+      "modelo": "Iphone 6",
+      "precio": 1800,
       "id": 1,
-      "title": "silicone case fuxia",
+      "title": "silicone case con logo original",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
-      "precio": 1300,
+      "modelo": "Iphone 6",
+      "precio": 1200,
       "id": 2,
-      "title": "silicone case verde",
+      "title": "silicone case con diseño",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
+      "modelo": "Iphone 6",
       "precio": 1000,
       "id": 3,
-      "title": "silicone case roja",
+      "title": "Rigidas de colores lisas",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
-      "precio": 1750,
+      "modelo": "Iphone 6",
+      "precio": 900,
       "id": 4,
-      "title": "silicone case azul",
+      "title": "Rigidas con diseños varios",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
-      "precio": 1600,
+      "modelo": "Iphone 6",
+      "precio": 1200,
       "id": 5,
-      "title": "silicone case amarilla",
+      "title": "Transparentes/ antishock",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
-      "precio": 1550,
+      "modelo": "Iphone 6",
+      "precio": 800,
       "id": 6,
-      "title": "silicone case marron",
+      "title": "Transparentes con diseño / otras.",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
+      "modelo": "Iphone 6 plus",
       "precio": 1550,
       "id": 7,
       "title": "silicone case marron",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
+      "modelo": "Iphone 6 plus",
       "precio": 1550,
       "id": 8,
       "title": "silicone case marron",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
+      "modelo": "Iphone 6 plus",
       "precio": 1550,
       "id": 9,
       "title": "silicone case marron",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
+      "modelo": "Iphone 6 plus",
       "precio": 1550,
       "id": 10,
       "title": "silicone case marron",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
+      "modelo": "Iphone 6 plus",
       "precio": 1550,
       "id": 11,
       "title": "silicone case marron",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     },
     {
+      "modelo": "Iphone 6 plus",
       "precio": 1550,
       "id": 12,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7",
+      "precio": 1550,
+      "id": 13,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7",
+      "precio": 1550,
+      "id": 14,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7",
+      "precio": 1550,
+      "id": 15,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7",
+      "precio": 1550,
+      "id": 16,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7",
+      "precio": 1550,
+      "id": 17,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7",
+      "precio": 1550,
+      "id": 18,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7 plus",
+      "precio": 1550,
+      "id": 19,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7 plus",
+      "precio": 1550,
+      "id": 20,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7 plus",
+      "precio": 1550,
+      "id": 21,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7 plus",
+      "precio": 1550,
+      "id": 22,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7 plus",
+      "precio": 1550,
+      "id": 23,
+      "title": "silicone case marron",
+      "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
+    },
+    {
+      "modelo": "Iphone 7 plus",
+      "precio": 1550,
+      "id": 24,
       "title": "silicone case marron",
       "thumbnailUrl": "../imagenes/Prueba tamaño funda.jpg"
     }

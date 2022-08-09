@@ -11299,6 +11299,9 @@ body{
   margin-top: 2rem;
 }
 
+.cardsIndex{
+  display: none;
+}
 
 /*paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas*/
 
@@ -11325,6 +11328,9 @@ body{
 
 .modelosFundas{
   background-color: rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .subtitulosPaginas{
@@ -11377,3 +11383,27 @@ body{
   justify-content: flex-end;
 }
 
+/* Boton ir al cielo */
+
+.button-up{
+  width: 60px;
+  height: 60px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  border: 4px solid transparent;
+  transition: all 300ms ease;
+  
+}
+.button-up:hover{
+  transform: scale(1.1);
+  border-color: rgba(0, 0, 0, 0.1);
+}

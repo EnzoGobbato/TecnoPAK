@@ -39,6 +39,7 @@ console.log(error);
 
 const pintarCards = data => {
     data.forEach(producto => {
+        templateCard.querySelector('h4').textContent = producto.modelo
         templateCard.querySelector('h5').textContent = producto.title
         templateCard.querySelector('p').textContent = producto.precio
         templateCard.querySelector('img').setAttribute('src', producto.thumbnailUrl)
