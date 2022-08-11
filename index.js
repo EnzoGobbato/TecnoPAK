@@ -296,6 +296,13 @@ const pintarFooter = () => {
         pintarCarrito ()
         Swal.fire('Vaciaste tu carrito correctamente.')    
     })
+
+    const btnComprar = document.getElementById('comprar')
+    btnComprar.addEventListener('click', () =>{
+        carrito = {}
+        pintarCarrito ()   
+        Swal.fire('Compraste todooooooo')
+    })
 }
 
 const btnAccion = e =>{
