@@ -11385,7 +11385,7 @@ body{
 
 /* Boton ir al cielo */
 
-.button-up{
+#button-up{
   width: 60px;
   height: 60px;
   background-color: tomato;
@@ -11401,9 +11401,9 @@ body{
   cursor: pointer;
   border: 4px solid transparent;
   transition: all 300ms ease;
-  
+  transform: scale(0);
 }
-.button-up:hover{
+#button-up:hover{
   transform: scale(1.1);
   border-color: rgba(0, 0, 0, 0.1);
 }

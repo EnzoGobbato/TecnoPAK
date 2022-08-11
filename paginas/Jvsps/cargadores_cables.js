@@ -8,6 +8,29 @@ const templateCarrito = document.getElementById('template-carrito').content
 const fragment = document.createDocumentFragment()
 let carrito = {}
 
+// Boton de ir al cielo
+
+document.getElementById("button-up").addEventListener('click', scrollUp);
+
+function scrollUp(){
+    let currentScroll = document.documentElement.scrollTop;
+
+    if (currentScroll > 0){
+        window.requestAnimationFrame(scrollUp);
+        window.scrollTo (0, currentScroll - (currentScroll / 10));
+    }
+}
+
+buttonUp = document.getElementById("button-up");
+window.onscroll = function (){
+    let scroll = document.documentElement.scrollTop;
+    if (scroll > 600){
+        buttonUp.style.transform = "scale(1)";
+    }else if (scroll < 500){
+        buttonUp.style.transform = "scale(0)";
+    }
+}
+ 
 // EVENTOS
 
 document.addEventListener('DOMContentLoaded', () => {

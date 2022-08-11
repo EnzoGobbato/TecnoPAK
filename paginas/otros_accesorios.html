@@ -4,84 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Otros Accesorios</title>
+    <title>Otros accesorios</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fc5535615f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+<header>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="../imagenes/logoPrincipal.png" class="img-fluid" alt="Logo principal">
+          </div>
+        </div>
+    </div>
 
-  <div class="container">
-      <div class="row">
-        <div class="col">
-          <img src="../imagenes/logoPrincipal.png" class="img-fluid" alt="Logo principal">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Tecno PAK</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Fundas</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="../paginas/Iphone.html">Iphone</a></li>
+          <li><a class="dropdown-item" href="../paginas/samsung.html">Samsung</a></li>
+          <li><a class="dropdown-item" href="../paginas/motorola.html">Motorola</a></li>
+          <li><a class="dropdown-item" href="../paginas/LG.html">LG</a></li>
+          <li><a class="dropdown-item" href="../paginas/xiaomi.html">Xiaomi</a></li>
+          <li><a class="dropdown-item" href="../paginas/huawei.html">Huawei</a></li>
+      </ul>
+  </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Accesorios</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../paginas/protectores_glasses.html">Protectores / glasses</a></li>
+            <li><a class="dropdown-item" href="../paginas/hidrogel.html">Hidrogel</a></li>
+            <li><a class="dropdown-item" href="../paginas/cargadores_cables.html">Cargadores / Cables</a></li>
+            <li><a class="dropdown-item" href="../paginas/audio.html">Audio</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="../paginas/otros_accesorios.html">Otros Accesorios</a></li>
+        </ul>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="../paginas/servicio_tecnico.html">Servicio Técnico</a>
+    </li>
+    <li class="nav-item">
+            <a class="nav-link" href="../paginas/contacto.html"> Contacto</a>
+    </li>
+    <ul class="carrito">
+      <li class="submenu">
+        <img src="../imagenes/anadir-al-carrito.png" alt="carrito de compras" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+
+        <div id="carrito" class="dropdown-menu">
+
+          <div class="container">
+            <h1>Carrito</h1>
+            <hr>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Item</th>
+                  <th scope="col">Cantidad</th>
+                  <th scope="col">Acción</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody id="items"></tbody>
+              <tfoot>
+                <tr id="footer">
+                  <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                </tr>
+              </tfoot>
+            </table>
+          
+        </div>
+      
+      <template id="template-carrito">
+        <tr>
+          <th scope="row">id</th>
+          <td>Café</td>
+          <td>1</td>
+          <td class="masMenos">
+              <button class="btn btn-info btn-sm">
+                  +
+              </button>
+              <button class="btn btn-danger btn-sm">
+                  -
+              </button>
+          </td>
+          <td>$ <span>500</span></td>
+        </tr>
+      </template>
+      
+      <template id="template-footer">
+        <th scope="row" colspan="2">Total productos</th>
+        <td>10</td>
+        <td>
+            <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                vaciar todo
+            </button>
+        </td>
+        <td class="font-weight-bold">$ <span>5000</span></td>
+    </template>
+
+        </div>
+      </li>
+    </ul>
+    </ul>
+  </header>
+
+<main class="cuerpoPaginas">
+
+<div class="tituloPaginas">
+    <h3>Accesorios Varios</h3>
+</div>
+    <br>
+<ul class="subtitulosPaginas">
+      <div class="modelosFundas">Fundas de Iphone ordenadas por modelos de forma decreciente (Recomendamos leer el apartado de "como comprar" antes de realizar la compra). Muchas gracias, TecnoPak.</div>
+      <hr>
+<div>
+  <div class="row" id="cards"></div>
+  <template id="template-card">
+    <div class="col-12 mb-2 col-md-2">
+      <div class="card">
+        <img src="" alt="" class="card-img-top">
+        <div class="card-body">
+          <h4>Modelo</h4>
+          <h5>Titulo</h5>
+          <p>precio</p>
+          <button class="btn btn-dark">Comprar</button>
         </div>
       </div>
-  </div>
-
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="../index.html">Tecno PAK</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Fundas</a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="../paginas/Iphone.html">Iphone</a></li>
-      <li><a class="dropdown-item" href="../paginas/samsung.html">Samsung</a></li>
-      <li><a class="dropdown-item" href="../paginas/motorola.html">Motorola</a></li>
-      <li><a class="dropdown-item" href="../paginas/LG.html">LG</a></li>
-      <li><a class="dropdown-item" href="../paginas/xiaomi.html">Xiaomi</a></li>
-      <li><a class="dropdown-item" href="../paginas/huawei.html">Huawei</a></li>
-  </ul>
-</li>
-    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Accesorios</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="../paginas/protectores_glasses.html">Protectores / glasses</a></li>
-        <li><a class="dropdown-item" href="../paginas/hidrogel.html">Hidrogel</a></li>
-        <li><a class="dropdown-item" href="../paginas/cargadores_cables.html">Cargadores / Cables</a></li>
-        <li><a class="dropdown-item" href="../paginas/audio.html">Audio</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="../paginas/otros_accesorios.html">Otros Accesorios</a></li>
-    </ul>
-</li>
-<li class="nav-item">
-    <a class="nav-link" href="../paginas/servicio_tecnico.html">Servicio Técnico</a>
-</li>
-<li class="nav-item">
-        <a class="nav-link" href="../paginas/contacto.html"> Contacto</a>
-</li>
-<ul class="carrito">
-  <li class="submenu">
-    <img src="../imagenes/anadir-al-carrito.png" alt="carrito de compras" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-
-    <div id="carrito" class="dropdown-menu">
-
-      <table id="lista-carrito" class="u-full-width">
-        <thead>
-          <tr>
-            <th>Imagen</th>
-            <th>Nombre</th>
-            <th>Precio</th>
-            <th>Cantidad</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar carrito</a>
     </div>
-  </li>
+  </template>
+</div>
 </ul>
-</ul>
-</header>
 
-<main>
+<!--Boton de ir al cielo-->
 
+<div id="button-up">
+  <i class="fa-solid fa-chevron-up"></i>
+</div>
 </main>
-<footer>
 
-</footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="../index.js"></script>
+  <footer>
+
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./Jvsps/iphone.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
