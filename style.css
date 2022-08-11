@@ -11371,7 +11371,10 @@ body{
   width: auto;
   height: auto;
 }
-
+.dropdown-item{
+  background-color: var(--bs-gray-300);
+  margin-bottom: 0.2rem;
+}
 .nav{
   display: flex;
   justify-content: flex-start;
