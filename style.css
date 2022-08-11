@@ -11282,7 +11282,7 @@ textarea.form-control-lg {
   }
 }/*# sourceMappingURL=style.css.map */
 
-
+/*Acá arranco a aplicar los estilos*/
 
 /*INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX INDEX*/
 
@@ -11383,12 +11383,27 @@ body{
   justify-content: flex-end;
 }
 
+.botonesVaciarComprar{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+#vaciar-carrito{
+  margin-right: 1rem;
+}
+
+#btnModelos{
+  margin-top: -1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 /* Boton ir al cielo */
 
 #button-up{
   width: 60px;
   height: 60px;
-  background-color: tomato;
+  background-color: #0c3c64;
   display: flex;
   justify-content: center;
   align-items: center;
