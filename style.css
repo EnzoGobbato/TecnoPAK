@@ -3936,7 +3936,7 @@ textarea.form-control-lg {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 4.58em;
   color: #ffa600;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -11303,6 +11303,7 @@ body{
   display: none;
 }
 
+
 /*paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas*/
 
 .row{
@@ -11400,6 +11401,20 @@ body{
   margin-top: -1rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
+
+}
+
+.btn-outline-primary{
+  display: flex;
+  text-align: justify;
+  width: 330px;
+  margin-left: 55px;
+  border: rem;
+  border-left: none;
+  font-weight: 700;
+}
+.btn-outline-primary:hover{
+  background-color: peachpuff;
 }
 /* Boton ir al cielo */
 
