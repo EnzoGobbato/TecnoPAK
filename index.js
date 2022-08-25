@@ -325,8 +325,35 @@ const btnAccion = e =>{
     e.stopPropagation()
 }
 
+//Scripts de EmailJS
 
+  const btn = document.getElementById('buttonSend');
+  document.getElementById('formulario')
+    .addEventListener('submit', function(event) {
+    event.preventDefault();
 
+    btn.value = 'Enviando...';
+
+    const serviceID = 'default_service';
+    const templateID = 'template_pxiytr7';
+
+    emailjs.sendForm(serviceID, templateID, this)
+      .then(() => {
+        btn.value = 'Enviar Mensaje';
+        Swal.fire({
+            title: 'Correo enviando correctamente! Nos pondremos en contacto con usted lo antes posible para coordinar, saludos equipo de TecnoPAK.-',
+            showClass: {
+              popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+              popup: 'animate__animated animate__fadeOutUp'
+            }
+          })
+  }, (err) => {
+    btn.value = 'Enviar Mensaje';
+    alert(JSON.stringify(err));
+  });
+});
 
 
 

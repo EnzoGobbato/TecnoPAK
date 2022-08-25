@@ -28,14 +28,14 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #ffa600;
-  --bs-secondary: #7c6740;
-  --bs-success: #a73c3c;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #adb5bd;
+  --bs-success: #198754;
   --bs-info: #389ccb;
-  --bs-warning: #ffa640;
-  --bs-danger: #ffa640;
-  --bs-light: #ffa640;
-  --bs-dark: #ffa640;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: rgb(244, 238, 238);
+  --bs-dark: #000;
   --bs-primary-rgb: 255, 166, 0;
   --bs-secondary-rgb: 124, 103, 64;
   --bs-success-rgb: 167, 60, 60;
@@ -11295,15 +11295,32 @@ body{
     height: 667px;
 }
 
-.col1{
-  margin-top: 2rem;
+.containerMaps{
+  background-color: var(--bs-gray-300);
+  margin-bottom: 3rem;
 }
-
+#mapa{
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 1rem 2rem 1rem;
+}
+#mapa .col1{
+width: 50%;
+}
+#mapa .col2{
+  width: 60%;
+  margin-left: 10rem;
+}
 .cardsIndex{
   display: none;
 }
 
-
+.comoComprar{
+  display: flex;
+  justify-content: center;
+  background-color: #389ccb;
+  margin-top: 2%;
+}
 /*paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas*/
 
 .row{
@@ -11385,6 +11402,7 @@ body{
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
+  margin-left: 13rem;
 }
 
 .botonesVaciarComprar{
@@ -11416,12 +11434,30 @@ body{
 .btn-outline-primary:hover{
   background-color: peachpuff;
 }
+
+#formulario{
+  background-color: #ffc107;
+  padding: 1rem;
+  border: solid 2px;
+  border-radius: 1%;
+}
+
+.form-label{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+#buttonSend{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 /* Boton ir al cielo */
 
 #button-up{
   width: 60px;
   height: 60px;
-  background-color: #0c3c64;
+  background-color: #f4ac13 ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11439,4 +11475,67 @@ body{
 #button-up:hover{
   transform: scale(1.1);
   border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* TODOS LOS FOOTERS*/
+
+footer{
+  position: relative;
+  width: 100%;
+  background-color: #0e3d64;
+  min-height: 100px;
+  padding: 20px 50px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .social_icons,
+footer .menu_footer{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 25px, 0;
+flex-wrap: wrap;
+}
+
+footer .social_icons li,
+footer .menu_footer li{
+  list-style: none;
+  margin: 0 4rem;
+}
+
+footer .social_icons li a{
+  font-size: 4em;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .social_icons li a:hover{
+  transform: translateY(-15px);
+}
+
+footer .menu_footer li a{
+  font-size: 1.4em;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+footer .menu_footer li a:hover{
+  opacity: 1;
+}
+
+footer p{
+  color: #949b9b ;
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+
+svg{
+  background-color: var(--bs-gray-300);
+  margin-top: -3rem;
 }
