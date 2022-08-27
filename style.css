@@ -11501,6 +11501,9 @@ margin-left: 4.5rem;
   justify-content: flex-end;
 }
 
+.container-form{
+  margin-bottom: 5rem;
+}
 /* Boton ir al cielo */
 
 #button-up{
