@@ -11309,7 +11309,7 @@ width: 50%;
 }
 #mapa .col2{
   width: 60%;
-  margin-left: 10rem;
+  margin-left: 1rem;
 }
 .cardsIndex{
   display: none;
@@ -11320,6 +11320,28 @@ width: 50%;
   justify-content: center;
   background-color: #389ccb;
   margin-top: 2%;
+}
+
+.col2 h5{
+  font-weight: 700;
+  font-size: x-large;
+  padding-left: 3rem;
+}
+.col2 img{
+  width: 44%;
+  padding: 1rem;
+  margin-left: 9rem;
+}
+.col2 .card-text{
+color: #000;
+text-align: center;
+margin-left: 4.5rem;
+}
+.col2 h6{
+  margin-left: 7rem;
+}
+.col2 a{
+  margin-left: 9.2rem;
 }
 /*paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas*/
 
@@ -11349,6 +11371,32 @@ width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.container-hidrogel{
+  margin: none;
+  padding: none;
+}
+
+.modeloHidrogel{
+  background-color: rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -1rem;
+}
+
+.col-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: larger;
+  text-align: center;
+  margin-left: 0rem;
+ 
+}
+.col-info h5{
+  font-weight: 800;
 }
 
 .subtitulosPaginas{
@@ -11452,6 +11500,7 @@ width: 50%;
   flex-direction: row;
   justify-content: flex-end;
 }
+
 /* Boton ir al cielo */
 
 #button-up{

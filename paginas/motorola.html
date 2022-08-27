@@ -121,27 +121,47 @@
     <h3>Fundas Motorola</h3>
 </div>
     <br>
-<ul class="subtitulosPaginas">
-
-      <h2 class="modelosFundas">Fundas Motorola modelos g6 / g7 / g8</h2>
-      <hr>
-<div>
-  <div class="row" id="cards"></div>
-  <template id="template-card">
-    <div class="productos col-12 mb-2 col-md-2">
-      <div class="card">
-        <img src="" alt="" class="card-img-top">
-        <div class="card-body">
-          <h5>Titulo</h5>
-          <p>precio</p>
-          <button class="btn btn-dark">Comprar</button>
-        </div>
-      </div>
+    <div class="btn-group dropend" id="btnModelos">
+      <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Modelos
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href='' >Iphone 6 / 6 Plus / 6s / 6s Plus</a></li>
+        <li><a class="dropdown-item" href="">Iphone 7 / 7 Plus</a></li>
+        <li><a class="dropdown-item" href="">Iphone 8 / 8 Plus</a></li>
+        <li><a class="dropdown-item" href="">Iphone X / XR / XS / XS Max</a></li>
+        <li><a class="dropdown-item" href=''>Iphone 11 / 11 Pro / 11 Pro Max</a></li>
+        <li><a class="dropdown-item" href="">Iphone 12 / 12 Mini / 12 Pro / 12 Pro Max</a></li>
+        <li><a class="dropdown-item" href="">Iphone 13 / 13 Mini / 13 Pro / 13 Pro Max</a></li>
+        <li><a class="dropdown-item" href="">Iphone SE</a></li>
+      </ul>
+      
+      <a class="btn btn-outline-primary" href="#irAlFinal">ir al final</a>
     </div>
-  </template>
-</div>
-</ul>
-
+        <br>
+        <ul class="subtitulosPaginas">
+          <div class="modelosFundas">Fundas de Motorola ordenadas por modelos de forma decreciente (Recomendamos leer el apartado de "como comprar" antes de realizar la compra). Muchas gracias, TecnoPak.</div>
+          <hr>
+    <div>
+      <div class="row" id="cards"></div>
+      <template id="template-card">
+        <div class="col-12 mb-2 col-md-2">
+          <div class="card">
+            <img src="" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4>Modelo</h4>
+              <h5 id="1">Titulo</h5>
+              <p>precio</p>
+              <ul class= "dropdown-menu">
+                <li class="dropdown-item">Azul</li>
+              </ul>
+              <button class="btn btn-dark">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
+    </ul>
 <!--Boton de ir al cielo-->
 
 <div id="button-up">
@@ -193,7 +213,7 @@
   <li><a class="footer-link" href="../paginas/servicio_tecnico.html">Servicio Técnico</a></li>
   <li><a class="footer-link" href="../paginas/contacto.html"> Contacto</a></li>
 </ul>
-<p>© Copyright 2022 Enzo Gaspar Gobbato Developer | all rights reserved.</p>
+<p id="irAlFinal">© Copyright 2022 Enzo Gaspar Gobbato Developer | all rights reserved.</p>
 </footer>
 
 </body>
