@@ -28,7 +28,7 @@ items.addEventListener('click',(e) =>{
 
 const fetchData = async () => {
     try{
-        const res = await fetch ('./jvsps/iphone.json')
+        const res = await fetch ('./jvsps/accesorios.json')
         const data = await res.json()
         // console.log(data)
         pintarCards(data)
@@ -164,7 +164,7 @@ function scrollUp(){
 
     if (currentScroll > 0){
         window.requestAnimationFrame(scrollUp);
-        window.scrollTo (0, currentScroll - (currentScroll / 10));
+        window.scrollTo (0, currentScroll - (currentScroll / 504));
     }
 }
 
@@ -177,5 +177,3 @@ window.onscroll = function (){
         buttonUp.style.transform = "scale(0)";
     }
 }
- 
-

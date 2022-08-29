@@ -1,0 +1,74 @@
+[
+    {
+      "precio": 3500,
+      "id": 50001,
+      "title": "Aro de luz 1",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 4000,
+      "id": 50002,
+      "title": "Aro de luz 2",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 1900,
+      "id": 50003,
+      "title": "Aro de luz 3",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 1750,
+      "id": 50004,
+      "title": "Aro de luz 4",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 5600,
+      "id": 50005,
+      "title": "Aro de luz 5",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 2550,
+      "id": 50006,
+      "title": "Aro de luz 6",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 5520,
+      "id": 50007,
+      "title": "Aro de luz 7",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 15560,
+      "id": 50008,
+      "title": "Aro de luz 8",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 2460,
+      "id": 50009,
+      "title": "Aro de luz 9",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 6540,
+      "id": 50010,
+      "title": "Aro de luz 10",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 1250,
+      "id": 50011,
+      "title": "Aro de luz 11",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    },
+    {
+      "precio": 5550,
+      "id": 50012,
+      "title": "Aro de luz 12",
+      "thumbnailUrl": "../imagenes/accesorio.jfif"
+    }
+  ]

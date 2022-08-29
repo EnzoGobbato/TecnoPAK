@@ -11299,6 +11299,14 @@ body{
   background-color: var(--bs-gray-300);
   margin-bottom: 3rem;
 }
+
+.containerMaps .col-md{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
 #mapa{
   display: flex;
   flex-direction: row;
@@ -11345,6 +11353,9 @@ margin-left: 4.5rem;
 }
 /*paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas paginas*/
 
+main{
+background-color: var(--bs-gray-300);
+}
 .row{
   margin: 0.5rem;
 }
@@ -11384,6 +11395,11 @@ margin-left: 4.5rem;
   flex-direction: row;
   justify-content: center;
   margin-top: -1rem;
+}
+.container-hidrogel img{
+  width: 43%;
+  padding: 1rem;
+  margin: 2rem;
 }
 
 .col-info{
@@ -11446,11 +11462,9 @@ margin-left: 4.5rem;
   justify-content: flex-start;
   background-color: var(--bs-gray-100);
 }
-.carrito{
+
+.nav-tabs .carrito{
   list-style-type: none;
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 13rem;
 }
 
 .botonesVaciarComprar{
@@ -11503,6 +11517,27 @@ margin-left: 4.5rem;
 
 .container-form{
   margin-bottom: 5rem;
+}
+
+.servicioTecnico{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem;
+}
+.servicioTecnico ul{
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.servicioTecnico img{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0 1rem 5rem
 }
 /* Boton ir al cielo */
 
